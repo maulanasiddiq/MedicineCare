@@ -1,0 +1,48 @@
+<android.support.v7.widget.CardView
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    card_view:cardBackgroundColor="#E6E6E6"
+    card_view:cardCornerRadius="8dp"
+    card_view:cardElevation="8dp"
+    card_view:cardUseCompatPadding="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:orientation="vertical"
+        android:padding="5dp">
+
+        <ImageView
+            android:id="@+id/gambar_event"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:layout_marginBottom="5dp"/>
+
+        <TextView
+            android:id="@+id/nama_event"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nama Event"
+            android:textSize="18sp"
+            android:layout_marginBottom="5dp"/>
+
+        <TextView
+            android:id="@+id/tanggal_event"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tanggal Event"
+            android:layout_marginBottom="5dp"/>
+
+        <TextView
+            android:id="@+id/penyelenggara"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Penyelenggara"/>
+
+
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>
